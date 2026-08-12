@@ -1,24 +1,13 @@
-# Cyber Suite // Decider & Text Decoder
+# Decider & Text Decoder
 
-A sleek, cyberpunk-themed web application built with vanilla HTML, CSS, and JavaScript. The project consists of two core interactive tools designed with a futuristic dark-mode aesthetic, micro-interactions, and Web Audio feedback.
+This website is dark themed website for 3am ysws. The project consists of two core interactive tools designed with a aesthetic theme.
 
 ## Features
 
-### 1. Text Decoder (`index.html`)
+### 1. Text Decoder
 - Real-time string decryption/scramble animation.
-- Custom Web Audio API sound synthesis on character decode (no external audio files required).
-- Minimalist terminal UI with scanline overlays.
+- Custom Web Audio sound synthesis on character decode.
 
-### 2. Decision Matrix (`decider.html`)
+### 2. Decision Matrix
 - Input memory buffer for managing choices (add, remove, and render).
-- LocalStorage persistence to keep choices saved across session reloads.
-- Randomized decision engine featuring the cyberpunk scramble transition on output.
-
-## File Structure
-
-```text
-cyber-app/
-├── index.html     # Text Scrambler page
-├── decider.html   # Decision Matrix page
-├── style.css      # Shared styling & dark theme variables
-└── script.js     # Shared application logic & audio synthesizer
+- Randomized decision engine featuring on output.
